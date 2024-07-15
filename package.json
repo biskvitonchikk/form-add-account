@@ -1,0 +1,29 @@
+{
+  "name": "account-manager",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.12",
+    "@quasar/vite-plugin": "^1.7.0",
+    "pinia": "^2.1.7",
+    "quasar": "^2.16.6",
+    "uuid": "^10.0.0",
+    "vue": "^3.4.29"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "@types/uuid": "^10.0.0",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "gh-pages": "^6.1.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.1",
+    "vue-tsc": "^2.0.21"
+  }
+}
